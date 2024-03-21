@@ -1,0 +1,68 @@
+body {
+display: flex;
+flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.NV_Logo {
+    height: 100%;
+    width: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+
+.first-part {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+}
+
+.left {
+    width: 500px;
+    flex-shrink: 0;
+}
+  
+.vent {
+    width: 500px;
+    height: 100%;
+}
+
+button {
+    border-radius: 8px;
+    height: 40px;
+    color: white;
+    background-color: #3882F6;
+    border: 0;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #004bc4;
+}
+
+button:active {
+    background-color: #002b70;
+}
+
+.second-part {
+    display: flex;
+}
