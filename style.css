@@ -65,4 +65,95 @@ button:active {
 
 .second-part {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictures {
+    display: flex;
+    gap: 50px;
+}
+
+.pictures img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    height: 175px;
+    width: 175px;
+}
+
+.blurb-texts {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+
+.blurb-texts p {
+    width: 185px;
+}
+
+.second-part h1 {
+    margin: 50px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.third-part {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 200px;
+    font-size: 36px;
+    justify-content: center;
+}
+.attribution {
+    text-align: right;
+}
+
+.quote {
+    font-style: italic;
+    color: #1F2937;
+}
+
+.third-content {
+    max-width: 1250px;
+}
+
+.fourth-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.fourth-content {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    gap: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cta {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.cta-blurb {
+    margin-top: 5px;
+}
+.fourth-part button {
+    border: 2px solid white;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
 }
